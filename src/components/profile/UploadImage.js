@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { updatePhotoURL } from '../../store/actions/authActions'
 import { storage } from '../../config/fbConfig';
 import { Button } from '@material-ui/core';
+import { PhotoCamera, Person } from '@material-ui/icons';
 
 const UploadImage = (props) => {
   const [photoURL, setPhotoURL] = useState('');
@@ -14,7 +15,7 @@ const UploadImage = (props) => {
   }, [props, photoURL]);
 
   const handleUploadImage = (e) => {
-    if (e.target.files[0]) return;
+    if (!e.target.files[0]) return;
 
     const file = e.target.files[0];
     const uploadTask = storage.ref(`profile_images/${file.name}`).put(file);
@@ -34,15 +35,22 @@ const UploadImage = (props) => {
 
   return (
     <div className='white'>
-      <img
-        width={200}
-        src={props.profile.photoURL}
-        alt={`${props.profile.firstName} ${props.profile.lastName}`}
-      />
+      {
+        props.profile.photoURL ?
+          <img
+            width={200}
+            src={props.profile.photoURL}
+            alt={`${props.profile.firstName} ${props.profile.lastName}`}
+          />
+        :
+        <Person width={200} />
+      }
+
       <div>
         <Button
           variant="contained"
           component="label"
+          startIcon={<PhotoCamera />}
         >
           Upload Image
           <input
