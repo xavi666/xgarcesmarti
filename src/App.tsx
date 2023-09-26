@@ -6,12 +6,10 @@ import Banner from "./components/Banner/Banner";
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <NavBar />
-        <Banner />
-      </header>
+      <NavBar />
+      <Banner />
     </div>
   );
-}
+};
 
 export default App;
