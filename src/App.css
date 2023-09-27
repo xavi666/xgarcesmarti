@@ -72,7 +72,6 @@ nav.navbar a.navbar-brand {
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -126,17 +125,6 @@ span.navbar-text {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg)
     brightness(95%) contrast(86%);
 }
-.navbar-text button {
-  font-weight: 700;
-  color: #fff;
-  border: 1px solid #fff;
-  padding: 18px 34px;
-  font-size: 18px;
-  margin-left: 18px;
-  position: relative;
-  background-color: transparent;
-  transition: 0.3s ease-in-out;
-}
 .navbar-text button span {
   z-index: 1;
 }
@@ -145,14 +133,10 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #fff;
   left: 0;
   top: 0;
   z-index: -1;
   transition: 0.3s ease-in-out;
-}
-.navbar-text button:hover {
-  color: #121212;
 }
 .navbar-text button:hover::before {
   content: '';
@@ -208,7 +192,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 
 /************ Banner Css ************/
  .banner {
-  margin-top: 150px;
+  padding-top: 150px;
   /*
   padding: 260px 0 100px 0;
   background-image: url('./assets/img/banner-bg.png');

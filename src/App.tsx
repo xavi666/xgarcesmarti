@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="bg-dark">
       <NavBar />
       <Banner />
       <Skills />

@@ -20,9 +20,9 @@ const NavBar = () => {
 
   return (
     <header>
-      <Navbar bg="dark" fixed="top">
+      <Navbar bg="white" fixed="top">
         <Container>
-          <Navbar.Brand className="text-white fs-1" href="#home">
+          <Navbar.Brand className="text-dark fs-1" href="#home">
             XG
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -77,9 +77,6 @@ const NavBar = () => {
                   <FontAwesomeIcon icon={faInstagram} inverse />{" "}
                 </a>
               </div>
-              <button className="vvd" onClick={() => console.log("connect")}>
-                <span>Let's connect</span>
-              </button>
             </span>
           </Navbar.Collapse>
         </Container>

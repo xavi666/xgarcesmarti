@@ -56,10 +56,10 @@ const Banner = () => {
   });
 
   return (
-    <section className="banner mg-l" id="home">
+    <section className="banner text-light" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col>
             <span className="tagline">Wellcome to my Portfolio</span>
             <h1>
               {`Hi I'm a `}
@@ -69,9 +69,6 @@ const Banner = () => {
             <button onClick={() => console.log("connect")}>
               Let's connect <FontAwesomeIcon icon={faCircleArrowRight} />
             </button>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            Image
           </Col>
         </Row>
       </Container>
