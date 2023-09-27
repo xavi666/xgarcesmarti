@@ -8,7 +8,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-const TO_ROTATE = ["Web Developer", "Product Owner"];
+const TO_ROTATE = [
+  "Web Developer",
+  "Product Owner",
+  "Product Person",
+  "Scrum ❤️",
+];
 const PERIOD = 2000;
 
 const Banner = () => {
@@ -51,7 +56,7 @@ const Banner = () => {
   });
 
   return (
-    <section className="banner" id="home">
+    <section className="banner mg-l" id="home">
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
