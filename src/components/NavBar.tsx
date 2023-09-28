@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 
-import { useState, useEffect } from "react";
 import classNames from "classnames";
 
 // Navbar
@@ -55,26 +54,17 @@ const NavBar = () => {
               >
                 CV
               </Nav.Link>
-              <Nav.Link
-                href="#projects"
-                onClick={() => setActiveLink("projects")}
-                className={classNames("navbar-link", {
-                  active: activeLink === "projects",
-                })}
-              >
-                Projects
-              </Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="#">
-                  <FontAwesomeIcon icon={faLinkedin} inverse />{" "}
+                  <FontAwesomeIcon icon={faLinkedin} />
                 </a>
                 <a href="#">
-                  <FontAwesomeIcon icon={faGithub} inverse />{" "}
+                  <FontAwesomeIcon icon={faGithub} />
                 </a>
                 <a href="#">
-                  <FontAwesomeIcon icon={faInstagram} inverse />{" "}
+                  <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </div>
             </span>

@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-import { useState, useEffect } from "react";
-
+// Bootstrap elements
 import { Container, Row, Col } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
 
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -56,19 +56,18 @@ const Banner = () => {
   });
 
   return (
-    <section className="banner text-light" id="home">
+    <section className="banner bg-info text-light pt-3 pb-3">
       <Container>
-        <Row className="align-items-center">
+        <Row>
           <Col>
-            <span className="tagline">Wellcome to my Portfolio</span>
             <h1>
               {`Hi I'm a `}
               <span className="wrap">{text}</span>{" "}
             </h1>
             <p>Lorem ipsum is simply dummy text of...</p>
-            <button onClick={() => console.log("connect")}>
+            <Button variant="light" onClick={() => console.log("connect")}>
               Let's connect <FontAwesomeIcon icon={faCircleArrowRight} />
-            </button>
+            </Button>
           </Col>
         </Row>
       </Container>
