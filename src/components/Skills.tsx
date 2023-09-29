@@ -12,7 +12,7 @@ const Skills = () => {
             <h1 className="text-light">Skills</h1>
             <div className="mt-4">
               <Row>
-                <Col md={6}>
+                <Col md={6} className="mb-2">
                   <Card className="mb-4 h-100">
                     <Card.Body>
                       <Card.Title>Product Owner</Card.Title>
@@ -33,7 +33,7 @@ const Skills = () => {
                     </Card.Body>
                   </Card>
                 </Col>
-                <Col md={6}>
+                <Col md={6} className="mb-2">
                   <Card className="mb-4 h-100">
                     <Card.Body>
                       <Card.Title>Web Developer</Card.Title>
