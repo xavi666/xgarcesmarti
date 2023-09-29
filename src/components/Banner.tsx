@@ -9,10 +9,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const TO_ROTATE = [
-  "Web Developer 🕸",
-  "Product Owner 👨‍🔬",
-  "Product Person 🌻",
-  "Scrum 💘",
+  "Web Developer",
+  "Product Owner",
+  "Product Person",
+  "Scrum Lover",
 ];
 const PERIOD = 2000;
 

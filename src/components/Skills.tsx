@@ -7,35 +7,55 @@ const Skills = () => {
   return (
     <section className="bg-dark pt-3 pb-3">
       <Container>
-        <Col>
-          <Row>
+        <Row>
+          <Col>
             <h1 className="text-light">Skills</h1>
-            <Col>
+            <div className="mt-4">
               <Row>
-                <Card border="primary">
-                  <Card.Header>Product Owner</Card.Header>
-                  <Card.Body>
-                    <Card.Title>Primary Card Title</Card.Title>
-                    <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-                <Card border="primary">
-                  <Card.Header>Web Developer</Card.Header>
-                  <Card.Body>
-                    <Card.Title>Primary Card Title</Card.Title>
-                    <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
+                <Col md={6}>
+                  <Card className="mb-4 h-100">
+                    <Card.Body>
+                      <Card.Title>Product Owner</Card.Title>
+                      <Card.Text>
+                        <ul>
+                          <li>✨ Agile (Scrum)</li>
+                          <li>❤️ Empathy</li>
+                          <li>📢 Communication</li>
+                          <li>👥 Collaboration</li>
+                          <li>📋 Requirements Definition</li>
+                          <li>🤔 Critical Thinking</li>
+                          <li>📊 Data-Driven (KPIs)</li>
+                          <li>🚀 MVP Definition</li>
+                          <li>🗺️ Product RoadMap Definition</li>
+                          <li>🎯 Prioritization based on Goals</li>
+                        </ul>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col md={6}>
+                  <Card className="mb-4 h-100">
+                    <Card.Body>
+                      <Card.Title>Web Developer</Card.Title>
+                      <Card.Text>
+                        <ul>
+                          <li>React ⚛️</li>
+                          <li>Ruby on Rails 🚂</li>
+                          <li>AngularJS 🅰️</li>
+                          <li>JavaScript 📜</li>
+                          <li>TypeScript 🧰</li>
+                          <li>PHP 🐘</li>
+                          <li>HTML 🌐</li>
+                          <li>CSS 🎨</li>
+                        </ul>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </Col>
               </Row>
-            </Col>
-          </Row>
-        </Col>
+            </div>
+          </Col>
+        </Row>
       </Container>
     </section>
   );
