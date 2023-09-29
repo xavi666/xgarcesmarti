@@ -57,14 +57,34 @@ const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#">
-                  <FontAwesomeIcon icon={faLinkedin} />
+                <a
+                  href="https://www.linkedin.com/in/xavier-garc%C3%A9s-mart%C3%AD-8aa3704"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    size={"2x"}
+                    className={"me-1"}
+                  />
                 </a>
-                <a href="#">
-                  <FontAwesomeIcon icon={faGithub} />
+                <a
+                  href="https://github.com/xavi666"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    size={"2x"}
+                    className={"me-1"}
+                  />
                 </a>
-                <a href="#">
-                  <FontAwesomeIcon icon={faInstagram} />
+                <a
+                  href="https://www.instagram.com/xevi_6"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FontAwesomeIcon icon={faInstagram} size={"2x"} />
                 </a>
               </div>
             </span>
