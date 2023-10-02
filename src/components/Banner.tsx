@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 // Bootstrap elements
-import { Container, Row, Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
