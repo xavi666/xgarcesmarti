@@ -92,7 +92,7 @@ const Skills = () => {
               </Row>
             </div>
             <a
-              className="btn btn-secondary stretched-link"
+              className="btn btn-warning stretched-link"
               href="/files/Xavier Garces CV - September 2023.pdf"
               target="_blank"
               download
