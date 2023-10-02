@@ -14,11 +14,11 @@ const Experience = () => {
               <div className="col-md-6 offset-md-3">
                 <ul className="timeline-3">
                   <li>
-                    <span className="fw-bold">
+                    <p className="fw-bold fs-5">
                       Devex, Barcelona - Product Owner
-                    </span>
-                    <span className="float-end">JUNE 2022 - PRESENT</span>
-                    <p className="mt-2">
+                    </p>
+                    <p className="badge bg-secondary">JUNE 2022 - PRESENT</p>
+                    <p>
                       As a Product working on the Jobs team, understanding our
                       users, based on data, and together with the stakeholders
                       and ui/ux experts, defining the product requirements.
@@ -31,11 +31,11 @@ const Experience = () => {
                     </p>
                   </li>
                   <li>
-                    <span className="fw-bold">
+                    <p className="fw-bold fs-5">
                       Devex, Barcelona - Frontend Developer
-                    </span>
-                    <span className="float-end">MARCH 2018 - JUNE 2022</span>
-                    <p className="mt-2">
+                    </p>
+                    <p className="badge bg-secondary">MARCH 2018 - JUNE 2022</p>
+                    <p>
                       As a Frontend developer I have worked on the News team,
                       implementing features for our paid and non paid users.
                     </p>
@@ -47,11 +47,13 @@ const Experience = () => {
                     </p>
                   </li>
                   <li>
-                    <span className="fw-bold">
+                    <p className="fw-bold fs-5">
                       Flowlens, Belfast - Frontend Developer
-                    </span>
-                    <span className="float-end">APRIL 2014 - MARCH 2018</span>
-                    <p className="mt-2">
+                    </p>
+                    <p className="badge bg-secondary">
+                      APRIL 2014 - MARCH 2018
+                    </p>
+                    <p>
                       As a Frontend developer I have worked on developing new
                       functionalities for the platform, fixing issues and
                       improving the platform in general.
@@ -63,26 +65,27 @@ const Experience = () => {
                     </p>
                   </li>
                   <li>
-                    <span className="fw-bold">
+                    <p className="fw-bold fs-5">
                       Concentrix, Belfast - Technical Advisor at Electronic Arts
-                    </span>
-                    <span className="float-end">JANUARY 2014 - APRIL 2014</span>
-                    <p className="mt-2">
+                    </p>
+                    <p className="badge bg-secondary">
+                      JANUARY 2014 - APRIL 2014
+                    </p>
+                    <p>
                       I have worked providing technical support and
                       troubleshooting through the use of telephone, email and
                       online chat which involves managing customer’s billing,
                       privacy and security data.
                     </p>
-                    <p></p>
                   </li>
                   <li>
-                    <span className="fw-bold">
+                    <p className="fw-bold fs-5">
                       Concentrix, Belfast - Sales Advisor at Apple
-                    </span>
-                    <span className="float-end">
+                    </p>
+                    <p className="badge bg-secondary">
                       SEPTEMBER 2013 - JANUARY 2014
-                    </span>
-                    <p className="mt-2">
+                    </p>
+                    <p>
                       I have worked providing technical support and
                       troubleshooting through the use of telephone, email and
                       online chat which involves managing customer’s billing,
@@ -90,11 +93,13 @@ const Experience = () => {
                     </p>
                   </li>
                   <li>
-                    <span className="fw-bold">
+                    <p className="fw-bold fs-5">
                       Freelance, Mataró - Web Developer
-                    </span>
-                    <span className="float-end">JANUARY 2012 - MARCH 2013</span>
-                    <p className="mt-2">
+                    </p>
+                    <p className="badge bg-secondary">
+                      JANUARY 2012 - MARCH 2013
+                    </p>
+                    <p>
                       Developing corporate and e-commerce websites in some
                       platforms such as Drupal, Joomla, Wordpress.
                     </p>
@@ -111,13 +116,13 @@ const Experience = () => {
                     </p>
                   </li>
                   <li>
-                    <span className="fw-bold">
+                    <p className="fw-bold fs-5">
                       Sala Assessor Informàtic S.L., Mataró - Web Developer
-                    </span>
-                    <span className="float-end">
+                    </p>
+                    <p className="badge bg-secondary">
                       MARCH 2008 - DECEMBER 2011
-                    </span>
-                    <p className="mt-2">
+                    </p>
+                    <p>
                       Developing some custom CRM for different kinds of
                       companies in eBD, such as textile or delivery of goods.
                       Working at all stages: customer’s meetings, gathering
