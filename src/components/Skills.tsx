@@ -92,7 +92,7 @@ const Skills = () => {
               </Row>
             </div>
             <a
-              className="btn btn-warning stretched-link"
+              className="btn btn-warning"
               href="/Xavier Garces CV - September 2023.pdf"
               target="_blank"
               download
@@ -102,14 +102,6 @@ const Skills = () => {
           </Col>
         </Row>
       </Container>
-      <div className="position-relative">
-        <div className="position-absolute top-0 start-0"></div>
-        <div className="position-absolute top-0 end-0"></div>
-        <div className="position-absolute top-50 start-50"></div>
-        <div className="position-absolute bottom-50 end-50"></div>
-        <div className="position-absolute bottom-0 start-0"></div>
-        <div className="position-absolute bottom-0 end-0"></div>
-      </div>
     </section>
   );
 };
