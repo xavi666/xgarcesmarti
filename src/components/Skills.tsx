@@ -1,7 +1,7 @@
 import React from "react";
 
 // Bootstrap elements
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,98 +9,82 @@ import { faCircleArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
   return (
-    <section className="bg-dark pt-3 pb-3">
+    <section className="pt-3 pb-3 bg-light">
       <Container>
-        <Row>
-          <Col>
-            <h1 className="text-light">Skills</h1>
-            <div className="mt-4">
-              <Row>
-                <Col md={3} className="mb-2">
-                  <Card className="mb-4 h-100">
-                    <Card.Body>
-                      <Card.Title>Product Owner</Card.Title>
-                      <Card.Text>
-                        <ul>
-                          <li>✨ Agile (Scrum)</li>
-                          <li>❤️ Empathy</li>
-                          <li>📢 Communication</li>
-                          <li>👥 Collaboration</li>
-                          <li>📋 Requirements Definition</li>
-                          <li>🤔 Critical Thinking</li>
-                          <li>📊 Data-Driven (KPIs)</li>
-                          <li>🚀 MVP Definition</li>
-                          <li>🗺️ Product RoadMap Definition</li>
-                          <li>🎯 Prioritization based on Goals</li>
-                        </ul>
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
-                <Col md={3} className="mb-2">
-                  <Card className="mb-4 h-100">
-                    <Card.Body>
-                      <Card.Title>Web Developer</Card.Title>
-                      <Card.Text>
-                        <ul>
-                          <li>⚛️ React</li>
-                          <li>🚂 Ruby on Rails</li>
-                          <li>🅰️ AngularJS </li>
-                          <li>📜 JavaScript </li>
-                          <li>🧰 TypeScript </li>
-                          <li>🐘 PHP</li>
-                          <li>🌐 HTML </li>
-                          <li>🎨 CSS</li>
-                        </ul>
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
-                <Col md={3} className="mb-2">
-                  <Card className="mb-4 h-100">
-                    <Card.Body>
-                      <Card.Title>Scrum</Card.Title>
-                      <Card.Text>
-                        <ul>
-                          <li>🔄 Refinement</li>
-                          <li>📊 Sprint Reviews/Planning</li>
-                          <li>📖 User Stories</li>
-                          <li>💥 Increment</li>
-                          <li>📂 Product/Sprint Backlog</li>
-                        </ul>
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
-                <Col md={3} className="mb-2">
-                  <Card className="mb-4 h-100">
-                    <Card.Body>
-                      <Card.Title>Tools</Card.Title>
-                      <Card.Text>
-                        <ul>
-                          <li>🔧 Jira / Confluence / Discovery</li>
-                          <li>📊 Google Analytics / Plausible</li>
-                          <li>🔍 Google Search Console</li>
-                          <li>📊 Looker Studio</li>
-                          <li>💻 Github</li>
-                          <li>🔥 Hotjar</li>
-                        </ul>
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
-              </Row>
+        <h1 className="text-dark">Skills</h1>
+        <div className="mt-4">
+          <Row>
+            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div className="skill-box">
+                <h3>Product Owner</h3>
+                <p>
+                  <ul>
+                    <li>✨ Agile (Scrum)</li>
+                    <li>❤️ Empathy</li>
+                    <li>📢 Communication</li>
+                    <li>👥 Collaboration</li>
+                    <li>📋 Requirements Definition</li>
+                    <li>🤔 Critical Thinking</li>
+                    <li>📊 Data-Driven (KPIs)</li>
+                    <li>🚀 MVP Definition</li>
+                    <li>🗺️ Product RoadMap Definition</li>
+                    <li>🎯 Prioritization based on Goals</li>
+                  </ul>
+                </p>
+              </div>
             </div>
-            <a
-              className="btn btn-warning"
-              href="/Xavier Garces CV - September 2023.pdf"
-              target="_blank"
-              download
-            >
-              Download CV <FontAwesomeIcon icon={faCircleArrowDown} />
-            </a>
-          </Col>
-        </Row>
+            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div className="skill-box">
+                <h3>Web Developer</h3>
+                <ul>
+                  <li>⚛️ React</li>
+                  <li>🚂 Ruby on Rails</li>
+                  <li>🅰️ AngularJS </li>
+                  <li>📜 JavaScript </li>
+                  <li>🧰 TypeScript </li>
+                  <li>🐘 PHP</li>
+                  <li>🌐 HTML </li>
+                  <li>🎨 CSS</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div className="skill-box">
+                <h3>Scrum</h3>
+                <ul>
+                  <li>🔄 Refinement</li>
+                  <li>📊 Sprint Reviews/Planning</li>
+                  <li>📖 User Stories</li>
+                  <li>💥 Increment</li>
+                  <li>📂 Product/Sprint Backlog</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div className="skill-box">
+                <h3>Tools</h3>
+                <ul>
+                  <li>🔧 Jira / Confluence / Discovery</li>
+                  <li>📊 Google Analytics / Plausible</li>
+                  <li>🔍 Google Search Console</li>
+                  <li>📊 Looker Studio</li>
+                  <li>💻 Github</li>
+                  <li>🔥 Hotjar</li>
+                </ul>
+              </div>
+            </div>
+          </Row>
+        </div>
+        <div className="mt-3">
+          <a
+            className="btn btn-warning fw-bold"
+            href="/Xavier Garces CV - September 2023.pdf"
+            target="_blank"
+            download
+          >
+            Download CV <FontAwesomeIcon icon={faCircleArrowDown} />
+          </a>
+        </div>
       </Container>
     </section>
   );
