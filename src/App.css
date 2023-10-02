@@ -1,5 +1,5 @@
 .banner {
-  margin-top: 86px;
+  margin-top: 66px;
 }
 
 /* Experience */
@@ -30,7 +30,7 @@ ul.timeline-3>li:before {
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid #22c0e8;
+  border: 3px solid #FFC107;
   left: 20px;
   width: 20px;
   height: 20px;

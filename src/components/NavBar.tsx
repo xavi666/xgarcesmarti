@@ -21,8 +21,11 @@ const NavBar = () => {
     <header>
       <Navbar bg="white" fixed="top">
         <Container>
-          <Navbar.Brand className="text-dark fs-1" href="#home">
-            XG
+          <Navbar.Brand
+            className="bg-info text-light  bg-warning fw-bold ps-2 pe-2 rounded fs-5"
+            href="#home"
+          >
+            <span className="fs-5">XG</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

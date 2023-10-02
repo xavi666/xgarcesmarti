@@ -13,7 +13,7 @@ export const ThemeContext = createContext(null);
 
 const App = () => {
   return (
-    <div className="bg-dark">
+    <div>
       <NavBar />
       <Banner />
       <Skills />
