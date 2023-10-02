@@ -93,7 +93,7 @@ const Skills = () => {
             </div>
             <a
               className="btn btn-warning stretched-link"
-              href="/files/Xavier Garces CV - September 2023.pdf"
+              href="/Xavier Garces CV - September 2023.pdf"
               target="_blank"
               download
             >
