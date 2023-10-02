@@ -12,7 +12,7 @@ const Skills = () => {
             <h1 className="text-light">Skills</h1>
             <div className="mt-4">
               <Row>
-                <Col md={6} className="mb-2">
+                <Col md={3} className="mb-2">
                   <Card className="mb-4 h-100">
                     <Card.Body>
                       <Card.Title>Product Owner</Card.Title>
@@ -33,20 +33,53 @@ const Skills = () => {
                     </Card.Body>
                   </Card>
                 </Col>
-                <Col md={6} className="mb-2">
+                <Col md={3} className="mb-2">
                   <Card className="mb-4 h-100">
                     <Card.Body>
                       <Card.Title>Web Developer</Card.Title>
                       <Card.Text>
                         <ul>
-                          <li>React ⚛️</li>
-                          <li>Ruby on Rails 🚂</li>
-                          <li>AngularJS 🅰️</li>
-                          <li>JavaScript 📜</li>
-                          <li>TypeScript 🧰</li>
-                          <li>PHP 🐘</li>
-                          <li>HTML 🌐</li>
-                          <li>CSS 🎨</li>
+                          <li>⚛️ React</li>
+                          <li>🚂 Ruby on Rails</li>
+                          <li>🅰️ AngularJS </li>
+                          <li>📜 JavaScript </li>
+                          <li>🧰 TypeScript </li>
+                          <li>🐘 PHP</li>
+                          <li>🌐 HTML </li>
+                          <li>🎨 CSS</li>
+                        </ul>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col md={3} className="mb-2">
+                  <Card className="mb-4 h-100">
+                    <Card.Body>
+                      <Card.Title>Scrum</Card.Title>
+                      <Card.Text>
+                        <ul>
+                          <li>🔄 Refinement</li>
+                          <li>📊 Sprint Reviews/Planning</li>
+                          <li>📖 User Stories</li>
+                          <li>💥 Increment</li>
+                          <li>📂 Product/Sprint Backlog</li>
+                        </ul>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col md={3} className="mb-2">
+                  <Card className="mb-4 h-100">
+                    <Card.Body>
+                      <Card.Title>Tools</Card.Title>
+                      <Card.Text>
+                        <ul>
+                          <li>🔧 Jira / Confluence / Discovery</li>
+                          <li>📊 Google Analytics / Plausible</li>
+                          <li>🔍 Google Search Console</li>
+                          <li>📊 Looker Studio</li>
+                          <li>💻 Github</li>
+                          <li>🔥 Hotjar</li>
                         </ul>
                       </Card.Text>
                     </Card.Body>

@@ -64,7 +64,19 @@ const Banner = () => {
               {`Hi I'm a `}
               <span className="wrap">{text}</span>{" "}
             </h1>
-            <p>Lorem ipsum is simply dummy text of...</p>
+            <hr />
+            <h4 className="fst-italic">
+              A Product Team is “just” a Team, no matter when you read that
+            </h4>
+            <hr />
+            <p>
+              Sociable and reliable, I enjoy working with people, colleagues or
+              customers. I have an adaptable and flexible approach to work and I
+              am able to make decisions on a daily basis. I am an enthusiastic,
+              dynamic and motivated individual, with more than fifteen years
+              experience working in web developing, in big and small companies,
+              and also on my own.
+            </p>
             <Button variant="light" onClick={() => console.log("connect")}>
               Let's connect <FontAwesomeIcon icon={faCircleArrowRight} />
             </Button>
