@@ -1,9 +1,8 @@
 import React from "react";
 
 // Bootstrap elements
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 
-import { Link } from "react-router-dom";
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowDown } from "@fortawesome/free-solid-svg-icons";
@@ -92,16 +91,16 @@ const Skills = () => {
                 </Col>
               </Row>
             </div>
+            <a
+              className="btn btn-secondary stretched-link"
+              href="/files/Xavier Garces CV - September 2023.pdf"
+              target="_blank"
+              download
+            >
+              Download CV <FontAwesomeIcon icon={faCircleArrowDown} />
+            </a>
           </Col>
         </Row>
-        <a
-          className="btn btn-secondary stretched-link"
-          href="/files/Xavier Garces CV - September 2023.pdf"
-          target="_blank"
-          download
-        >
-          Download CV <FontAwesomeIcon icon={faCircleArrowDown} />
-        </a>
       </Container>
       <div className="position-relative">
         <div className="position-absolute top-0 start-0"></div>
