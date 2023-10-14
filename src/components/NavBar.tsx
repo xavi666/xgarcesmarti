@@ -23,7 +23,7 @@ const NavBar = () => {
         <Container>
           <Navbar.Brand
             className="bg-info text-light  bg-warning fw-bold ps-2 pe-2 rounded fs-5"
-            href="#home"
+            href="/#home"
           >
             <span className="fs-5">XG</span>
           </Navbar.Brand>
@@ -31,7 +31,7 @@ const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link
-                href="#home"
+                href="/#home"
                 onClick={() => setActiveLink("home")}
                 className={classNames("navbar-link", {
                   active: activeLink === "home",
@@ -40,7 +40,7 @@ const NavBar = () => {
                 Home
               </Nav.Link>
               <Nav.Link
-                href="#skills"
+                href="/#skills"
                 onClick={() => setActiveLink("skills")}
                 className={classNames("navbar-link", {
                   active: activeLink === "skills",
@@ -49,7 +49,7 @@ const NavBar = () => {
                 Skills
               </Nav.Link>
               <Nav.Link
-                href="#experience"
+                href="/#experience"
                 onClick={() => setActiveLink("experience")}
                 className={classNames("navbar-link", {
                   active: activeLink === "experience",
