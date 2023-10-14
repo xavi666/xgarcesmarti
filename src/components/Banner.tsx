@@ -55,7 +55,7 @@ const Banner = () => {
   });
 
   return (
-    <section className="banner bg-warning text-light pt-3 pb-3">
+    <section className="banner bg-warning text-light pt-3 pb-3" id="home">
       <Container>
         <Row>
           <Col>

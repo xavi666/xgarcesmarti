@@ -40,22 +40,22 @@ const NavBar = () => {
                 Home
               </Nav.Link>
               <Nav.Link
-                href="#about-me"
-                onClick={() => setActiveLink("about-me")}
+                href="#skills"
+                onClick={() => setActiveLink("skills")}
                 className={classNames("navbar-link", {
-                  active: activeLink === "about-me",
+                  active: activeLink === "skills",
                 })}
               >
-                About Me
+                Skills
               </Nav.Link>
               <Nav.Link
-                href="#cv"
-                onClick={() => setActiveLink("cv")}
+                href="#experience"
+                onClick={() => setActiveLink("experience")}
                 className={classNames("navbar-link", {
-                  active: activeLink === "cv",
+                  active: activeLink === "experience",
                 })}
               >
-                CV
+                Experience
               </Nav.Link>
             </Nav>
             <span className="navbar-text">

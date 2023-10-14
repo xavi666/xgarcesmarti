@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Experience = () => {
   return (
-    <section className="bg-light pt-3 pb-3">
+    <section className="bg-light pt-3 pb-3" id="experience">
       <Container>
         <Row>
           <Col>

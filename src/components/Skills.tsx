@@ -9,7 +9,7 @@ import { faCircleArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
   return (
-    <section className="pt-3 pb-3 bg-light">
+    <section className="pt-3 pb-3 bg-light" id="skills">
       <Container>
         <h1 className="text-dark">Skills</h1>
         <div className="mt-4">
