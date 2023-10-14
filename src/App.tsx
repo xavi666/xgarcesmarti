@@ -1,18 +1,22 @@
 import React from "react";
 import "./App.css";
 
-import NavBar from "./components/NavBar";
+import Layout from "./components/layout/Layout";
 import Home from "./components/pages/Home";
-import Footer from "./components/Footer";
 import Festes from "./components/pages/Festes";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
-      <NavBar />
-      <Home />
-      <Footer />
-    </div>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/festes" element={<Festes />}></Route>
+        </Routes>
+      </Layout>
+    </Router>
   );
 };
 
